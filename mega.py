@@ -8,18 +8,28 @@ os.system('clear')
 bar = "\033[1;33;40m\n_________________________________________________\n"
 
 name = """\033[1;32;40m
-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
-\033[1;36;40m   |   __  __               _      ___         _   _    |
-\033[1;34;40m   |  |  \/  | ___  __ _   / \    |  _ \ _   _| \ | |   |
-\033[1;36;40m   |  | |\/| |/ _ \/ _` | / O \   | |_) | | | |  \| |   |
-\033[1;34;40m   |  | |  | |  __/ (_| |/ ___ \  |  _ <| |_| | |\  |   |
-\033[1;36;40m   |  |_|  |_|\___|\__, /_/   \_\ |_| \_\\___/|_| \_|    |
-\033[1;34;40m   |              |___/                                 |
-    -+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+\033[1;36;40m      __  __               _      ___         _   _
+\033[1;34;40m     |  \/  | ___  __ _   / \    |  _ \ _   _| \ | |
+\033[1;36;40m     | |\/| |/ _ \/ _` | / O \   | |_) | | | |  \| |
+\033[1;34;40m     | |  | |  __/ (_| |/ ___ \  |  _ <| |_| | |\  |
+\033[1;36;40m     |_|  |_|\___|\__, /_/   \_\ |_| \_\\___/|_| \_|
+\033[1;34;40m                 |___/
+    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+           ▌│█║▌║▌║ ♕MEGARUN♕ ║▌║▌║█│▌
 \033[1;35;40m              [+] Tool By Mohammed Faiz
-\033[1;36;40m              [+]  Contect Me =-0770597445
+\033[1;36;40m              [+]  Contect Me:-0770597445
 \033[1;35;40m              [+]  All Rights To Mohammed Faiz
-\033[1;36;40m          Note:-[Check your Data Connection And Run]
+\033[1;35;40m[[NOTE]]  කිසියම් හෙතුවක් මත ඔබෙ MegaRun Game ඒක Block  උන නම් පහත සදහන් කෙටිපනිවිඩය
+            service@dialog.lk හො  0777678678
+එකට Whatspp  මගින්  Dialog ඇයතනයට දනුම් දීමෙන් පය 48 ක් අතුලත නවත Unblock  කරගනිමට පුලුවන්
+\033[1;36;40m   [Hi My Connection No:(your Phone Number)
+    Played mega run mulitiple description
+    and so time I do play simultaneously!
+    Now my mega run game is showing
+    "user is blocked" error I tired reinstalling
+    the game by removing it from other
+    devices please unblock me ! I really
+    loved the game ]
 \033[1;32;40m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
 """
 
@@ -31,6 +41,7 @@ try:
     auth = f.read()
     f.close
 except:
+    print("▌│█║▌║▌║ ♕MEGARUN♕ ║▌║▌║█│▌")
     wr = str(input("\033[1;0;40mPaste Your Auth here :- "))
     f = open("auth.txt", "w")
     f.write(wr)
@@ -45,7 +56,7 @@ try:
     url1 = f.read()
     f.close
 except:
-
+    print("▌│█║▌║▌║ ♕MEGARUN♕ ║▌║▌║█│▌")
     wr = str(input("Paste Your URL here :- "))
     f = open("url.txt", "w")
     f.write(wr)
